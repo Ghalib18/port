@@ -50,13 +50,13 @@ export function HeroCard() {
             {/* Greeting */}
             <motion.div className="flex items-center justify-center gap-2">
               <span className="text-lg font-medium text-sky-100 shadow-black drop-shadow-md">{"Hi! I'm"}</span>
-              <span className="text-3xl font-bold tracking-tight drop-shadow-lg">Anish Singh</span>
+              <span className="text-3xl font-bold tracking-tight drop-shadow-lg">Ghalib Hussain</span>
             </motion.div>
 
             {/* Main Title */}
             <div className="flex items-center gap-2 bg-black/10 px-4 py-1 rounded-full backdrop-blur-sm border border-white/10">
               <h2 className="text-xl font-bold text-white drop-shadow-md">
-                Full-Stack Architect
+                Generative Intelligence Developer
               </h2>
               <Rocket className="w-5 h-5 text-yellow-300 animate-pulse drop-shadow-md" />
             </div>
