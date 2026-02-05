@@ -33,18 +33,31 @@ const projects = [
   },
 
   {
-    id: "rightsy",
-    title: "Rightsy",
+    id: "Fake-News-Detection",
+    title: "Fake-News-Detection",
     description:
-      "Gamified legal education platform for ages 6-16 with 10+ interactive games and story-based videos. Scaled to 1000+ monthly visitors.",
-    tags: ["Next.js", "Javascript", "MongoDB", "YouTube API"],
-    link: "https://github.com/Ghalib18/rightsy",
-    github: "https://github.com/Ghalib18/rightsy",
+     "Built an ML-based fake news detection system using NLP techniques and multiple classifiers, achieving 92% accuracy in classifying news articles as real or fake for automated misinformation detection.",
+    tags: ["Python", "NLP", "Machine Learning ", "Streamlit"],
+    link: "https://fake-vs-real-kuqg5c5jmw7bsrwsvq5jco.streamlit.app/",
+    github: "https://github.com/Ghalib18/Fake-news-Detection",
     gradient: "from-emerald-500 via-teal-500 to-cyan-500",
-    highlights: ["45% engagement increase", "25% retention boost", "<200ms response time"],
-    image: "/rightsy.png",
+    highlights: ["92% Accuracy", "20k+ dataSets", "Random Forest"],
+    image: "/fake.png",
   },
   
+  {
+    id: "house",
+    title: "House Price Prediction System",
+    description:
+      "Built a house price prediction model using Linear Regression to estimate property values from real estate data after preprocessing and feature engineering.",
+    tags:  ["Python", "Regression", "Machine Learning ", "Streamlit"],
+    link: "https://house-prediction-7yv5pmhd2h5s2lart8xpos.streamlit.app/",
+    github: "https://github.com/Ghalib18/house-prediction",
+    gradient: "from-blue-500 via-indigo-500 to-violet-500",
+    highlights: ["0.85 R2 score", "Linear Regression", "Streamlit"],
+    image: "/house.jpg",
+  },
+
   {
     id: "innobyte",
     title: "Resthouse Management System",

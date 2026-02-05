@@ -7,22 +7,7 @@ import { AchievementCard } from "@/components/about/achievement-card"
 import { Navigation } from "@/components/ui/navigation"
 
 const achievements = [
-  {
-    id: "ffe",
-    title: "Amazon FFE UG Scholar",
-    subtitle: "Foundation For Excellence",
-    period: "Nov 2022 - April 2026",
-    description: [
-      "Awarded for academic excellence and leadership potential",
-      "Selected from thousands of applicants through a competitive process",
-      "Received financial support for tuition and living expenses",
-      "Participated in exclusive leadership and development programs",
-      "Access to a network of scholars, professionals, and mentors",
-    ],
-    icon: GraduationCap,
-    color: "from-blue-500 to-cyan-500",
-    accentColor: "#3b82f6",
-  },
+  
   {
     id: "sih",
     title: "Winner SIH (2023)",
@@ -57,7 +42,7 @@ const achievements = [
   id: "innobyte",
   title: "Frontend Intern at InnoByte",
   subtitle: "Web Development",
-  period: "April 2025 - May 2025",
+  period: "Jan 2025 - Feb 2025",
   description: [
     "Developed a responsive SPA using Next.js & TypeScript, boosting user retention by 30%",
     "Integrated Google Maps and WhatsApp API to reduce booking time by 50%",
@@ -68,26 +53,11 @@ const achievements = [
   color: "from-orange-500 to-amber-500",
   accentColor: "#f59e0b",
 },
-  {
-    id: "technix",
-    title: "SDE Intern at Technix India",
-    subtitle: "Software Development",
-    period: "July 2025 - Sep 2025",
-    description: [
-      "Built Node.js backend for AI YouTube toolkit with Gemini Flash 2.5",
-      "Deployed Stripe subscription billing generating $75K ARR",
-      "Secured REST APIs with JWT auth for 5K+ users",
-      "Engineered AWS microservices to handle 200% traffic spikes",
-    ],
-    icon: Briefcase,
-    color: "from-purple-500 to-pink-500",
-    accentColor: "#8b5cf6",
-  },
-  {
+ {
   id: "iit-patna",
   title: "ML Intern at IIT Patna",
   subtitle: "Data Science & Research",
-  period: "Nov 2025 - Jan 2026",
+  period: "April 2025 - June 2026",
   description: [
     "Conducted predictive analysis on Bihar road accident datasets to identify causality patterns",
     "Engineered classification models using Random Forest, Logistic Regression, KNN, and KDBC",
@@ -98,6 +68,22 @@ const achievements = [
   color: "from-blue-500 to-cyan-500",
   accentColor: "#3b82f6",
 },
+  {
+    id: "technix",
+    title: "SDE Intern at Technix India",
+    subtitle: "Machine Learning Intern",
+    period: "Sept 2025 - Nov 2025",
+    description: [
+     "Built sentiment analysis model on 1,000+ product reviews with 88% accuracy",
+     " Preprocessed text using TF-IDF, tokenization, and stopword removal",
+     " Trained Naive Bayes and Logistic Regression classifiers",
+     "Analyzed sentiment trends to support product improvement decisions",
+    ],
+    icon: Briefcase,
+    color: "from-purple-500 to-pink-500",
+    accentColor: "#8b5cf6",
+  },
+ 
   {
     id: "leetcode",
     title: "Active LeetCoder",
@@ -158,7 +144,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-slate-800 mb-4">Career Summary</h2>
             <p className="text-slate-600 leading-relaxed max-w-4xl">
               {
-                "Innovative MERN Stack Developer with a strong academic foundation (8.9 CGPA) and a laser focus on AI/ML integration. I am dedicated to bridging the gap between robust web architecture and intelligent algorithms. My goal is to build scalable, AI-driven applications that solve genuine problems and redefine user experiences through automation and insight."
+                "Innovative AI/ML and Generative AI Developer with a strong academic foundation (8.9 CGPA) and hands-on experience in building intelligent systems powered by machine learning and large language models. Focused on developing scalable, AI-driven solutions that automate processes, extract insights, and solve real-world problems."
               }
             </p>
           </motion.section>
