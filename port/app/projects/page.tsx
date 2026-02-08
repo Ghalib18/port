@@ -20,16 +20,17 @@ const projects = [
   },
 
   {
-    id: "youtube-toolkit",
-    title: "BuzzTube",
+    id: "MediBot",
+    title: "MediBot",
     description:
-      "Backend for AI-powered thumbnail, title, and description generation using Gemini Flash 2.5, during my internship period at Technix-India .Serving 1.2K creators monthly with 60% prep time reduction.",
-    tags: ["Node.js", "Gemini AI", "Stripe", "AWS"],
-    link: "https://buzz-tube-dzwe-d0v7j0w75-anish1279s-projects.vercel.app/",
-    github: "https://buzz-tube-dzwe-d0v7j0w75-anish1279s-projects.vercel.app/",
+      "Enables users to ask health-related questions and receive document-grounded information on diseases, symptoms, and general wellness using semantic search and RAG, while clearly avoiding diagnosis or medical advice.",
+    tags: ["RAG", "LLM", "Huggingface", "Python"],
+    link: "https://github.com/Ghalib18/mediBot",
+    github: "https://github.com/Ghalib18/mediBot",
     gradient: "from-orange-500 via-amber-500 to-yellow-500",
-    highlights: ["$75K ARR", "30% MoM revenue growth", "99.9% uptime"],
-    image: "/buzztube.png",
+   highlights: ["RAG-based system", "FAISS semantic search", "Open-source LLM"],
+
+    image: "/medibot.jpg",
   },
 
   {
@@ -89,8 +90,7 @@ export default function ProjectsPage() {
           >
             <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">My Projects</h1>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              Featured projects showcasing my expertise in full-stack development, AI integration, and scalable
-              architecture.
+             Featured projects showcasing my expertise in AI/ML system development, model integration, and scalable, data-driven architectures.
             </p>
           </motion.div>
 

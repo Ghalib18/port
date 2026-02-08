@@ -56,7 +56,7 @@ export function HeroCard() {
             {/* Main Title */}
             <div className="flex items-center gap-2 bg-black/10 px-4 py-1 rounded-full backdrop-blur-sm border border-white/10">
               <h2 className="text-xl font-bold text-white drop-shadow-md">
-                Generative Intelligence Developer
+                AI-ML Engineer
               </h2>
               <Rocket className="w-5 h-5 text-yellow-300 animate-pulse drop-shadow-md" />
             </div>
