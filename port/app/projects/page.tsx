@@ -25,7 +25,7 @@ const projects = [
     description:
       "Enables users to ask health-related questions and receive document-grounded information on diseases, symptoms, and general wellness using semantic search and RAG, while clearly avoiding diagnosis or medical advice.",
     tags: ["RAG", "LLM", "Huggingface", "Python"],
-    link: "https://github.com/Ghalib18/mediBot",
+    link: "https://1minbot.streamlit.app/",
     github: "https://github.com/Ghalib18/mediBot",
     gradient: "from-orange-500 via-amber-500 to-yellow-500",
    highlights: ["RAG-based system", "FAISS semantic search", "Open-source LLM"],
